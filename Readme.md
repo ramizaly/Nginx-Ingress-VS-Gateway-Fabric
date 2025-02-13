@@ -1,7 +1,7 @@
 
 # Nginx Ingress Vs Gateway Fabric- A brief Analysis
 
-![Architecture](./Assets/nginx.drawio.png)
+![Architecture](./Assets/IngressVFabric.png)
 
 As Kubernetes continues to evolve, organizations are increasingly relying on robust ingress controllers and API gateway solutions to manage their microservices architectures. NGINX, a leader in the space, offers two distinct solutions that cater to different use cases: NGINX Ingress Controller and NGINX Gateway Fabric. While both are built on NGINX’s high-performance web server, they differ significantly in their architecture, functionalities, and the challenges they aim to solve. I have been working with Ingress for quite some time and I have just recently discovered the nginx specific implementation of the Gateway API. I'll dive into a detailed comparison between these two powerful tools to help you understand when and why you might choose one over the other in your Kubernetes environment.
 
